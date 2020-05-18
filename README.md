@@ -71,7 +71,7 @@ O valor de cada pokémon é definido aleatoriamente.
 
 <h3><strong>Gif</strong></h3>
 <img src='./src/assets/web.gif' width='600'>
-
+<br>
 <h3><strong>Home</strong></h3>
 <img src='./src/assets/home.png' width='600'>
 <br>
