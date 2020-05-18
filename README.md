@@ -1,44 +1,110 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align=center>
+  <img src="https://camo.githubusercontent.com/1f02f1fa9990995cd69a2fbfad3023fa53cc9f9d/68747470733a2f2f7777772e6e61726974612d616972706f72742e6a702f696d672f6f726967696e616c2f33373836" width=260px/>
+</p>
 
-## Available Scripts
+<p align="center">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/LuisaFC/pokestore">
 
-In the project directory, you can run:
+  <img src="https://img.shields.io/github/languages/count/LuisaFC/pokestore">
 
-### `yarn start`
+  <a href="https://www.linkedin.com/in/luisafcorrea/">
+    <img alt="Made by LuisaFC" src="https://img.shields.io/badge/made%20by-LuisaFC-%230172B3">
+  </a>
+</p>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<br>
+<br>
+<br>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+# <img src="https://img.icons8.com/color/48/000000/pokeball--v1.png" width='6%'/> Sobre
 
-### `yarn test`
+Projeto desenvolvido para o processo seletivo da <a href="https://ri.b2w.digital/">B2W Digital</a>.
+<br>
+O desafio teve o objetivo de propor a experência de construir uma loja virtual de pokémon, já que a empresa é holding de 4 lojas virtuais e marketplaces.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br>
 
-### `yarn build`
+# <img src="https://img.icons8.com/color/48/000000/pikachu-pokemon.png" width='7%'> Desafio
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+O desafio consistem em fazer a integração com a api <a href="https://pokeapi.co/">pokeapi</a> para exibir os pokémons e separa-los por loja.
+<br>
+<br>
+Ex: Loja fogo possui pokémons de fogo.
+<br>
+<br>
+Além disso, deve ser possível adicionar e retirar pokémons em um carrinho e mostrar o valor total da compra.
+<br>
+<br>
+O valor de cada pokémon é definido aleatoriamente.
+<br>
+<br>
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+# <img src="https://img.icons8.com/color/48/000000/snorlax.png" width='7%'/> Funcionalidades
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [x] Catálogo de produtos(pokémon)
+- [x] Carrinho lateral
+- [x] Resumo do carrinho
+- [x] 2 lojas com estilos e tipos diferentes de Pokémon (Fogo <img src="https://img.icons8.com/color/48/000000/charmander.png" width='4%'/> e água <img src="https://img.icons8.com/color/48/000000/squirtle.png" width='4%'/>)
+- [x] Barra de busca
+- [x] Botão de finalizar compra reiniciando o processo de compra
+- [x] Modal de obrigado ao finalizar compra
+- [x] Salvar os dados da compra do usuário localmente para não perdê-los ao atualizar a página
 
-### `yarn eject`
+<br>
+<br>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# <img src="https://img.icons8.com/color/48/000000/pokedex.png" width='7%'/> Tecnologias utilizadas
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [x] ReactJS
+- [x] TypeScript
+- [x] React Router
+- [x] Context API
+- [x] Styled Components
+- [x] Axios
+- [x] React icons
+- [x] Polished
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<br>
+<br>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# <img src="https://img.icons8.com/color/48/000000/star-pokemon.png" width='7%' /> Imagens
 
-## Learn More
+<h3><strong>Gif</strong></h3>
+<img src='./src/assets/web.gif' width='600'>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<h3><strong>Home</strong></h3>
+<img src='./src/assets/home.png' width='600'>
+<br>
+<h3><strong>Loja Fogo</strong></h3>
+<img src='./src/assets/fire.png' width='600'>
+<br>
+<h3><strong>Buscar</strong></h3>
+<img src='./src/assets/buscar.png' width='600'>
+<br>
+<h3><strong>Loja Agua</strong></h3>
+<img src='./src/assets/water.png' width='600'>
+<br>
+<h3><strong>Toast Compra efeutada</strong></h3>
+<img src='./src/assets/modal.png' width='600'>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<br>
+<br>
+
+# <img src="https://img.icons8.com/color/48/000000/meowth.png" width='7%'/> Como usar
+
+Para rodar o proejto localmente na sua máquina instale o <a href="https://git-scm.com/">Git</a> e o <a href="https://nodejs.org/en/">NodeJS</a>. E realize os seguintes passos:
+
+```shell
+# Clone o repositorio
+$ git clone https://github.com/LuisaFC/pokestore.git
+# Enter na pasta do projeto
+$ cd pokestore
+
+# Instale as dependências
+$ yarn
+
+# Inicie o projetp
+$ yarn start
+```
+
+Depois de realizar os passos, o projeto poderá ser acessado em `http://localhost:3000`.

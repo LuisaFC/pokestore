@@ -33,7 +33,7 @@ export const StoreList = styled.ul`
   li {
     display: flex;
     flex-direction: column;
-    background: #f0f0f0;
+    background: #f6c358;
     border-radius: 10px;
     padding: 10px;
 
